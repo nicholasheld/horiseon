@@ -3,24 +3,19 @@
     padding: 0;
     margin: 0;
 }
-
-body {
-    background-color: #d9dcd6;
-}
-
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
-.header h1 {
+/*This defines Horiseon will look and font size*/
+h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/*This id is a grey color for the seo in horiseon*/
+#seo {
     color: #d9dcd6;
 }
 
@@ -40,6 +35,10 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/*body comes after the header*/
+body {
+    background-color: #d9dcd6;
+}
 
 a {
     color: #ffffff;
@@ -48,6 +47,7 @@ a {
 
 p {
     font-size: 16px;
+    color:white;
 }
 
 .hero {
@@ -75,65 +75,13 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+/*The h2 headers SEO, ORM, and SMM*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/*This is the formatting for the main images-need to consolidate*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +108,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*these are the main images that can be consolidated under one class*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,28 +121,80 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.benefit img{
+    margin-bottom: 32px;
+    color: #ffffff;
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/*.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
-.footer {
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}*/
+/*This is the headers in the sidebar*/
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    color:#ffffff;
+    margin:10px auto;
+}
+/* Moving to one h3
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}*/
+
+/*This information is for the right sidebar images-need to consolidate - moving up with top ones*/
+/*.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}*/
+
+
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+h4 {
     font-size: 20px;
 }
